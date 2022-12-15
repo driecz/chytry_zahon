@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8f8f8;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-a {
+  text-decoration: none;
+}
+
+.title-text{
+  color: white;
+  font-size: 42px;
+}
+.my-container {
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto
+}
+
+.my-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title{
+  position: relative;
+  top: 80%;
+}
+.title-value{
+  font-size: 24px;
+  color: black;
+}
+.data-value{
+  color: #1f1f1f;
+  font-size: 24px;
+}
+.data-description{
+  color: #1f1f1f;
+  font-size: 16px;
+}
+.data{
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.card {
+  flex-wrap: wrap;
+  margin: 10px 20px;
+  height: 490px;
+  width: 325px;
+  flex-direction: column;
+  padding: 10px 20px;
+  align-self: normal;
+  border-radius: 15px;
+}
+
+.card-extended {
+  flex-wrap: wrap;
+  background-color: white;
+  margin: 10px 20px;
+  height: 490px;
+  width: 450px;
+  flex-direction: column;
+  padding: 10px 20px;
+  align-self: normal;
+  border-radius: 15px;
+}
+
+.card-one{
+  background-image: url("../images/img1.png");
+}
+
+.card-two{
+  background-image: url("../images/img2.png");
+}
+
+.card-signup{
+  background-image: url("../images/signup.png");
+}
+
+.card-login{
+  background-image: url("../images/login.png");
+}
+
+.card-logout{
+  background-image: url("../images/logout.png");
+}
+.card-bed-one{
+  background-image: url("../images/bed-one.png");
+}
+.card-bed-two{
+  background-image: url("../images/bed-two.png");
+}
+.card-go-back{
+  background-image: url("../images/go-back.png");
+}
+.card-greenhouse{
+   background-image: url("../images/greenhouse.png");
+ }
+
+.button-black {
+  padding: 0px 32px;
+  width: 50%;
+  height: 52px;
+  margin-top: 10%;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+
+  cursor: pointer;
+
+  background: #0F0F0F;
+  border-radius: 10px;
+  border: none;
+}
+@media (max-width: 854px)
+{
+  .card-extended {
+    width: 300px;
+  }
+  .title-value{
+    font-size: 18px;
+  }
+  .data-description{
+    font-size: 12px;
+  }
+  .button-black{
+    margin-top: 25%;
+  }
+}
+@media (max-width: 704px)
+{
+  .card-extended {
+    width: 300px;
+  }
+  .card {
+    width: 300px;
+  }
+}
